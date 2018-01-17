@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users
-  get 'pages/home'
+  get 'home', to: 'pages#home'
 
-  get 'pages/about'
+  get 'about-me', to: 'pages#about'
 
-  get 'pages/contact'
+  get 'contact', to: 'pages#contact'
 
   root to: 'pages#home'
 
