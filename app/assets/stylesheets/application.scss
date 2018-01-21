@@ -1,4 +1,41 @@
 @import "bootstrap";
+@import "font-awesome";
+@font-face {
+  font-family: "BeautyDemo";
+  src: url('/assets/BeautyDemo');
+}
+
+@font-face {
+  font-family: "CaviarDreams";
+  src: url('/assets/CaviarDreams');
+}
+
+@font-face{
+  font-family: "cafe_brewery";
+  src: url('/assets/cafe_brewery');
+}
+
+.display-3 {
+  font-family: CaviarDreams;
+}
+
+.welcome {
+  font-family: BeautyDemo;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: BeautyDemo;
+}
+
+html,
+body {
+  font-family: cafe_brewery;
+}
 
 /* Space out content a bit */
 body {
@@ -94,16 +131,68 @@ body {
 }
 .card-text{
   text-align: center;
+  padding-top: 30px;
 }
 .card-title{
   text-align: center;
 }
 .card{
-  background-color: orangered;
-  padding: 30px;
+  background-color: steelblue;
+  padding: 30px; 
 }
 
 .about_image{
-  right: 10px;
+  position: relative;
+  left: 140px;
 }
 
+.edit-reg{
+  width: 110%;
+  right: 50px;
+}
+
+.social-links a:visited{ 
+ color: black 
+ }
+
+.social-links a:hover{
+  color: red;
+}
+
+.contact-card{
+  text-align:center;
+}
+
+.pass{
+  position:relative;
+  top: 48px;
+}
+
+.sign-up{
+  position: relative;
+  left: 220px;
+}
+
+.sign-card{
+  position: absolute;
+  top: 50px;
+}
+
+.contact-head{
+  text-align: center;
+  font-size: 50px;
+}
+
+.about-text{
+  font-size: 150%;
+}
+
+.contact-body{
+  font-family: CaviarDreams;
+}
+
+.login-card{
+  width: 50%;
+  position: relative;
+  left:175px;
+}
