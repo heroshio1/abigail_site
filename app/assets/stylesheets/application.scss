@@ -1,0 +1,198 @@
+@import "bootstrap";
+@import "font-awesome";
+@font-face {
+  font-family: "BeautyDemo";
+  src: url('/assets/BeautyDemo');
+}
+
+@font-face {
+  font-family: "CaviarDreams";
+  src: url('/assets/CaviarDreams');
+}
+
+@font-face{
+  font-family: "cafe_brewery";
+  src: url('/assets/cafe_brewery');
+}
+
+.display-3 {
+  font-family: CaviarDreams;
+}
+
+.welcome {
+  font-family: BeautyDemo;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: BeautyDemo;
+}
+
+html,
+body {
+  font-family: cafe_brewery;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem;
+  }
+}
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 2rem;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* custom styles */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: bold;
+  color: rgba(255,255,255,.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+.card-text{
+  text-align: center;
+  padding-top: 30px;
+}
+.card-title{
+  text-align: center;
+}
+.card{
+  background-color: steelblue;
+  padding: 30px; 
+}
+
+.about_image{
+  position: relative;
+  left: 140px;
+}
+
+.edit-reg{
+  width: 110%;
+  right: 50px;
+}
+
+.social-links a:visited{ 
+ color: black 
+ }
+
+.social-links a:hover{
+  color: red;
+}
+
+.contact-card{
+  text-align:center;
+}
+
+.pass{
+  position:relative;
+  top: 48px;
+}
+
+.sign-up{
+  position: relative;
+  left: 220px;
+}
+
+.sign-card{
+  position: absolute;
+  top: 50px;
+}
+
+.contact-head{
+  text-align: center;
+  font-size: 50px;
+}
+
+.about-text{
+  font-size: 150%;
+}
+
+.contact-body{
+  font-family: CaviarDreams;
+}
+
+.login-card{
+  width: 50%;
+  position: relative;
+  left:175px;
+}

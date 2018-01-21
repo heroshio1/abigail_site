@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    Jarys_satre_view_tool (0.1.2)
     actioncable (5.0.6)
       actionpack (= 5.0.6)
       nio4r (>= 1.2, < 3.0)
@@ -39,8 +40,14 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.1.4)
+    autoprefixer-rails (7.2.5)
+      execjs
     bcrypt (3.1.11)
     bindex (0.5.0)
+    bootstrap (4.0.0.beta3)
+      autoprefixer-rails (>= 6.0.3)
+      popper_js (>= 1.12.3, < 2)
+      sass (>= 3.5.2)
     builder (3.2.3)
     byebug (9.1.0)
     coffee-rails (4.2.2)
@@ -61,6 +68,8 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
+    font-awesome-rails (4.7.0.3)
+      railties (>= 3.2, < 5.2)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     i18n (0.9.1)
@@ -90,6 +99,7 @@ GEM
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
     pg (0.21.0)
+    popper_js (1.12.9)
     puma (3.11.0)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -172,9 +182,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  Jarys_satre_view_tool (~> 0.1.2)
+  bootstrap (~> 4.0.0.beta3)
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.4)
+  font-awesome-rails (~> 4.7, >= 4.7.0.3)
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
