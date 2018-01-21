@@ -24,5 +24,6 @@ module Abigail
 
     config.assets.enabled = true
 		config.assets.paths << Rails.root.join('app/assets/fonts')
+		config.secret_key_base = ENV["SECRET_KEY_BASE"]
   end
 end
