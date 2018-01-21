@@ -1,2 +1,21 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<header class="header clearfix">
+	<h1 class="site-name text-muted">Abi's Athletics</h1>
+</header>
+
+<main role="main">
+	<div class="jumbotron">
+		<% if current_user.is_a?(User) %>
+			<h1 class="display-3">Hi, <%= current_user.first_name %></h1>
+		<% else %>
+			<h1 class="welcome">What's your goal?</h1>
+		<% end %>
+			<p class="lead">I'm here to help you reach your fitness goals. <br/> Whether you want to lose fat, gain muscle, or you want to improve your athletic performance! </p>
+			
+			<% unless current_user.is_a?(User) %>
+				<%= link_to "Sign up today", new_user_registration_path, class: "btn btn-success" %>
+			<% end %>
+	</div>
+</main>
+
+
+
